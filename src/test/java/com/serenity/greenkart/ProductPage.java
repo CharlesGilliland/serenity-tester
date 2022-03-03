@@ -1,4 +1,4 @@
-package greenkart;
+package com.serenity.greenkart;
 
 import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.By;

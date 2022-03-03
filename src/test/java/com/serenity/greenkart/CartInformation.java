@@ -1,4 +1,4 @@
-package greenkart;
+package com.serenity.greenkart;
 
 import net.serenitybdd.core.pages.PageObject;
 

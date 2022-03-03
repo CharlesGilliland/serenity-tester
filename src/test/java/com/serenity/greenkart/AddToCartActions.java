@@ -1,4 +1,4 @@
-package greenkart;
+package com.serenity.greenkart;
 
 import net.serenitybdd.core.steps.UIInteractionSteps;
 import net.thucydides.core.annotations.Step;

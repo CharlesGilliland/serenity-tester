@@ -1,5 +1,6 @@
-package greenkart;
+package com.serenity.greenkart;
 
+import com.serenity.NavigationActions;
 import net.serenitybdd.core.Serenity;
 import net.serenitybdd.core.steps.UIInteractionSteps;
 import net.serenitybdd.junit5.SerenityJUnit5Extension;
@@ -27,7 +28,7 @@ public class WhenAddingItemsToCart extends UIInteractionSteps {
 
     @Test
     public void theCorrectAmountOfItemsAreAdded(){
-        navigationActions.navigateToPage();
+        navigationActions.navigateToPage("https://rahulshettyacademy.com/seleniumPractise/#/");
 
         // Check the cart is empty
         Serenity.reportThat("Checking the cart has 0 items", () -> {
@@ -47,7 +48,7 @@ public class WhenAddingItemsToCart extends UIInteractionSteps {
 
     @Test
     public void theCorrectPriceIsUpdatedWhenTheSameItemIsAdded(){
-        navigationActions.navigateToPage();
+        navigationActions.navigateToPage("https://rahulshettyacademy.com/seleniumPractise/#/");
 
         // Check the cart is empty
         Serenity.reportThat("Checking the cart has 0 items", () -> {
